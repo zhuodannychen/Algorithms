@@ -25,6 +25,16 @@ bool search (string str) {
     return cnt[u] > 0;
 }
 
+bool startsWith (string str) {
+    int u = 0;
+    for (char c : str) {
+        if (!trie[u][c-'A'])
+            return false;
+        u = trie[u][c-'A'];
+    }
+    return cnt[u] != -1;
+}
+
 int main() {
     memset(trie, 0, sizeof(trie[0])*sz);
 	memset(cnt, 0, 4*sz);
@@ -39,4 +49,5 @@ int main() {
     cout << output[search("BOB")] << "\n";
     cout << output[search("DANIEL")] << "\n";
     cout << output[search("DANN")] << "\n";
+    cout << output[startsWith("CHAR")] << "\n";
 }
