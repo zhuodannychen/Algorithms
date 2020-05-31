@@ -66,7 +66,7 @@ public:
 };
 
 int main() {
-    // assuming n is at least 5
+    // assuming n is at least 6
     
     int n; cin >> n;
     vector<int> a(n);
