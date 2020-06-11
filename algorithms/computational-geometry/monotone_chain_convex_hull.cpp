@@ -10,7 +10,7 @@ typedef long long ll;
 
 struct point { 
     ll x, y; 
-    bool operator <(point p) { 
+    bool operator <(point p) const { 
         if (x == p.x) return y < p.y;
         return x < p.x; 
     } 
