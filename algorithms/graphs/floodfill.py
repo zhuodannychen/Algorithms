@@ -1,3 +1,8 @@
+"""
+Motivation: A very basic floodfill implementation
+Complexity: O(N^2)
+"""
+
 di = [0, 0, -1, 1]
 dj = [1, -1, 0, 0]
 

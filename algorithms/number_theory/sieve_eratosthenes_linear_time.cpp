@@ -1,5 +1,6 @@
 /**
- * Motivation: Sieve of Eratosthenes in O(n) time.
+ * Motivation: Sieve of Eratosthenes to calculate prime numbers.
+ * Complexity: O(N)
  */
 
 #include <bits/stdc++.h>

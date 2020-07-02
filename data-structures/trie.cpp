@@ -1,3 +1,8 @@
+/**
+ * Motivation: Trie implementation
+ * Complexity: construction O(N*M)
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

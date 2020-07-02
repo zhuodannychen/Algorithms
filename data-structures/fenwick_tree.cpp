@@ -1,3 +1,8 @@
+/**
+ * Motivation: Implement fenwick tree for point update.
+ * Complexity: build O(NlogN), rsq O(logN), update O(logN)
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 

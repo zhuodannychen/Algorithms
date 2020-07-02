@@ -1,7 +1,7 @@
 /**
  * Merge Sort Tree
  * Motivation: to find the number of elements smaller than val given a range from l to r.
- * Complexity: build - O(NlogN), query - O(logN)
+ * Complexity: build O(NlogN), query O(logN)
  */
 
 #include <bits/stdc++.h>

@@ -1,4 +1,7 @@
-// Solve the longest increasing subsequence problem in nlogn
+/**
+ * Motivation: Solve the longest increasing subsequence problem
+ * Complexity: O(NlogN)
+ */
 
 #include<bits/stdc++.h>
 using namespace std;

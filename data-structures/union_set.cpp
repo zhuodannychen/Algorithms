@@ -1,7 +1,12 @@
+/**
+ * Motivation: Disjoint Union Set implementation
+ * Complexity: O(logN)
+ * Source: Competitive Programming 3 book
+ */
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// credits: Competitive Programming 3
 class UnionFind {
 private:
     vector<int> p, rank, setSize;

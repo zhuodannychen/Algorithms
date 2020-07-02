@@ -1,4 +1,8 @@
-// Modular inverse and combinatorics
+/**
+ * Motivation: Pre-calculate factorial, inverse, and factorial inverse. This is used for combinatorics.
+ * Complexity: buildFact O(N), nCr O(1)
+ * Source: Tozan Southerpacks
+ */
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -18,11 +22,12 @@ void buildFact(int n) {
         finv[i] = finv[i-1] * inv[i] % MOD;
     }
 }
-long long C(int a,int b){if(a < b || b < 0)return 0; return fact[a] * finv[b] % MOD * finv[a-b] % MOD;}
+
+long long nCr(int a,int b){if(a < b || b < 0)return 0; return fact[a] * finv[b] % MOD * finv[a-b] % MOD;}
 
 // running code
 int main() {
     buildFact(5);
-    cout << C(4, 2) << "\n";
+    cout << nCr(4, 2) << "\n";
 }
 

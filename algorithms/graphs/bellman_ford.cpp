@@ -1,3 +1,8 @@
+/**
+ * Motivation: Find shortest path in a graph with negative weights.
+ * Complexity: O(V*E)
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 
