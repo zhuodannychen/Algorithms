@@ -15,6 +15,7 @@ List of algorithms implemented in C++ that appear in competitive programming com
   * [Combinatorics](https://github.com/zhuodannychen/Algorithms/blob/master/algorithms/number_theory/combinatorics_inverse.cpp)
   * [Sieve of Eratosthenes](https://github.com/zhuodannychen/Algorithms/blob/master/algorithms/number_theory/sieve_eratosthenes.cpp)
   * [Sieve of Eratosthenes in O(n)](https://github.com/zhuodannychen/Algorithms/blob/master/algorithms/number_theory/sieve_eratosthenes_linear_time.cpp)
+  * [Prime Factorization](https://github.com/zhuodannychen/Algorithms/blob/master/algorithms/number_theory/prime_factorization.cpp)
 * String
   * [KMP](https://github.com/zhuodannychen/Algorithms/blob/master/algorithms/string/kmp.cpp)
   
